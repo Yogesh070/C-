@@ -1,3 +1,4 @@
 # C-
 2nd Semester C++
-q_nameisquestion no
+q_name is question no.
+
