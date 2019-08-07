@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int convert(int f)
+inline convert(int f)
 {
 	return (f-32)*5/9;
 }
