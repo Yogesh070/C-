@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-float convert(int p)
+inline float convert(int p)
 {
 	return p*0.453592;
 }
