@@ -10,11 +10,11 @@ class square{
 		}
 	void printarea()
 	{
-		cout<<"area of circle = "<<l*l<<endl;
+		cout<<"area of square = "<<l*l<<endl;
 	}
 		void printperimeter()
 	{
-		cout<<"perimeter of circle = "<<4*l;
+		cout<<"perimeter of square = "<<4*l;
 	}
 };
 int main()
