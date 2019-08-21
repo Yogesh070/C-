@@ -8,7 +8,7 @@ class intrest{
 		this ->p=p;
 		this ->t=t;
 		this ->r=r;
-		cout<<"simple intrest ="<<(p*t*r)/100<<endl;
+		cout<<(p*t*r)/100<<endl;
 		
 	}
 };
@@ -21,6 +21,8 @@ main()
 	cin>>t;
 	cout<<"enter the rate"<<endl;
 	cin>>r;
+	cout<<"simple intrest in default rate(i.e 2%) is ";
 	intrest obj (p,t);
+	cout<<"simple intrest in input rate is ";
 	intrest obj1 (p,t,r);
 }

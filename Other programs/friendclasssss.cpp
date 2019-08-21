@@ -2,7 +2,7 @@
 using namespace std;
 class alpha{
 	int x;
-	public:
+	private:
 		void setvalue()
 		{
 			cout<<"enter no.";

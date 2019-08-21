@@ -5,7 +5,7 @@ class sample{
 	public:
 		void input()
 		{
-			cout<<"enter a numbers two numbers "<<endl;
+			cout<<"enter two numbers "<<endl;
 			cin>>a>>b;
 		}
 		friend void mean(sample x);

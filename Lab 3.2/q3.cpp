@@ -16,7 +16,7 @@ class two{
 	public:
 		void input2()
 		{
-			cout<<"enter the first no";
+			cout<<"enter the second no";
 			cin>>b;
 		}
 		friend int swap(one x,two y);

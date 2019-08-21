@@ -9,6 +9,9 @@ class sample{
 			a=5;
 			b=4;
 		}
+void dis(){
+	cout<<a<<endl;
+}
 friend void sum(sample s)
 {
 	int c;
@@ -21,4 +24,5 @@ int main()
 	sample x;
 	x.setvalue();
 	sum(x);
+	x.dis();
 }
