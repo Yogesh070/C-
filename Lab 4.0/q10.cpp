@@ -9,14 +9,9 @@ class mountain{
 			height=y;
 			location=z;
 		}
-		mountain(string x,double y ,string z){
-			name=x;
-			height=y;
-			location=z;
-		}
 		void displayInfo()
 		{
-			cout<<"the information of the heighest mountain is"<<endl;
+			cout<<"The information of the heighest mountain is"<<endl;
 			cout<<"Name:"<<name<<endl;
 			cout<<"height:"<<height<<endl;
 			cout<<"location:"<<location<<endl;		
