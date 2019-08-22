@@ -18,7 +18,7 @@ class mountain{
 		}
 		void CmpHeight(mountain obj2)
 		{
-			if (height>obj2.height)
+			if (height>obj2.height) 
 			displayInfo();
 			else
 			obj2.displayInfo();
