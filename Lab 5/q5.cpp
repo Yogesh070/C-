@@ -3,7 +3,7 @@ using namespace std;
 class shape{
 	public:
 	int l,b,h,base;
-	void getdata()
+	shape()
 	{
 		cout<<"enter the lenght ";
 		cin>>l;
@@ -29,10 +29,9 @@ class triangle:public shape{
 };
 main()
 {
-	triangle obj2;
+	shape obj2;
 	rectangle obj1;
-	obj1.getdata();
+	triangle obj3;
 	obj1.display();
-	obj2.getdata();
-	obj2.display();
+	obj3.display();
 }
